@@ -1,7 +1,12 @@
 
 import './App.css';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import NewComp from './NewComp';
 import NavBar from './Components/NavBar';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Games from './Components/Games';
+import News from './Components/News';
 
 
 import React, { Component } from 'react';
@@ -29,14 +34,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
         <NavBar />
-        <header className="App-header">
-
-          <h1 className="App=title">Wayne Collier</h1>
-        </header>
-        <NewComp />
-        <p className="App-intro">{this.state.data}</p>
+        <Switch>
+          <Route exact path="/About" component={About} />
+          <Route exact path="/">
+            <Redirect to="/About" />
+          </Route>
+          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/News" component={News} />
+          <Route exact path="/Games" component={Games} />
+        </Switch>
       </div>
     );
   }
