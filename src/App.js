@@ -1,7 +1,6 @@
 
 import './App.css';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import NewComp from './NewComp';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
 import Contact from './Components/Contact';
