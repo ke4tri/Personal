@@ -11,6 +11,7 @@ function NavBar() {
                         <Nav.Link href="Contact">Contact</Nav.Link>
                         <Nav.Link href="News">News</Nav.Link>
                         <Nav.Link href="Games">Games</Nav.Link>
+                        <Nav.Link href="Projs">Projects</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
