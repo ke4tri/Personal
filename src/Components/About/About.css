@@ -32,13 +32,13 @@
   .words {
     color: #f4d03f;
     font-size: 0;
-    line-height: 1.5;
+    line-height: 1;
   }
   
   .words span {
-    font-size: 5rem;
+    font-size: 10rem;
     display: inline-block;
-    animation: move 3s ease-in-out infinite;
+    animation: move 10s ease-in-out infinite;
   }
   
   @keyframes move {
