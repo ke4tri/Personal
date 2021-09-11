@@ -7,5 +7,5 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 app.get('/express_backend', (req, res) => {
     //I think the api/query info will eventually go here
-    res.send({express : 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT'});
+    res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
 });

@@ -1,11 +1,38 @@
+
+import React from 'react';
+import './About.css';
+
+
 function About() {
     return (
-        <div className="App">
-            <header className="App-header">
+        <React.Fragment >
+            <div className='test'>
+                <div className="words word-1">
+                    <span>W</span>
+                    <span>A</span>
+                    <span>Y</span>
+                    <span>N</span>
+                    <span>E</span>
+                    {/* <span>E</span>
+                    <span>N</span> */}
+                </div>
 
-                About
-            </header>
-        </div>
+                <div className="words word-2">
+                    {/* <span>=</span>
+                    <span>=</span> */}
+                </div>
+
+                <div className="words word-3">
+                    <span>C</span>
+                    <span>O</span>
+                    <span>L</span>
+                    <span>L</span>
+                    <span>I</span>
+                    <span>E</span>
+                    <span>R</span>
+                </div>
+            </div>
+        </React.Fragment>
     );
 }
 

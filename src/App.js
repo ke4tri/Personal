@@ -1,12 +1,12 @@
 
 import './App.css';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import NewComp from './NewComp';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Games from './Components/Games';
 import News from './Components/News';
+import Projs from './Components/Projs';
 
 
 import React, { Component } from 'react';
@@ -44,6 +44,7 @@ class App extends Component {
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/News" component={News} />
           <Route exact path="/Games" component={Games} />
+          <Route exact path="/Projs" component={Projs} />
         </Switch>
       </div>
     );
