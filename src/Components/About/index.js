@@ -1,11 +1,13 @@
 
 import React from 'react';
+import Neo from '../../Components/Neo/index'
 import './About.css';
 
 
 function About() {
     return (
         <React.Fragment >
+
             <div className='test'>
                 <div className="words word-1">
                     <span>W</span>
