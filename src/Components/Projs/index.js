@@ -6,12 +6,12 @@ function Projs() {
         <React.Fragment>
 
 
-            <div class="container">
-                <div class="glitch" data-text="PROJECTS">PROJECTS</div>
-                <div class="glow">Projects</div>
-                <p class="subtitle">SOFTWARE ENGENEER</p>
+            <div className="container">
+                <div className="glitch" data-text="PROJECTS">PROJECTS</div>
+                <div className="glow">Projects</div>
+                <p className="subtitle">SOFTWARE ENGENEER</p>
             </div>
-            <div class="scanlines"></div>
+            <div className="scanlines"></div>
 
         </React.Fragment>
     );

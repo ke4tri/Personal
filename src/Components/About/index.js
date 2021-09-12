@@ -7,7 +7,7 @@ import './About.css';
 function About() {
     return (
         <React.Fragment >
-
+            <Neo className='Neo' />
             <div className='test'>
                 <div className="words word-1">
                     <span>W</span>
