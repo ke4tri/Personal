@@ -20,7 +20,7 @@ function Contact() {
                 </div>
             </div>
 
-            <a href="https://youtu.be/7d2XsPSjjjI" target="_blank"><footer>
+            <a href="https://www.linkedin.com/in/wayne-collier/" target="_blank"><footer>
                 <div className="texto">
                     <span>
                         <i className="fab fa-youtube"></i>

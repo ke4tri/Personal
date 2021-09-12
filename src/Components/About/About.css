@@ -19,6 +19,12 @@
     color: white;
 }
 
+.Neo{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
 .test {
     font-family: "Archivo Black", sans-serif;
     background: #f4d03f;
@@ -77,3 +83,11 @@
     animation-delay: 3s;
   }
   
+  @media only screen and (max-width: 570px) {
+    .words span {
+      
+      font-size: 7rem;
+      display: inline-block;
+      animation: move 10s ease-in-out infinite;
+    }
+  }

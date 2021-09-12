@@ -36,16 +36,19 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <Switch>
-          <Route exact path="/About" component={About} />
-          <Route exact path="/">
-            <Redirect to="/About" />
-          </Route>
-          <Route exact path="/Contact" component={Contact} />
-          <Route exact path="/News" component={News} />
-          <Route exact path="/Games" component={Games} />
-          <Route exact path="/Projs" component={Projs} />
-        </Switch>
+        <div className='componentWrapper'>
+          <Switch>
+            <Route exact path="/About" component={About} />
+            <Route exact path="/">
+              <Redirect to="/About" />
+            </Route>
+            <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/News" component={News} />
+            <Route exact path="/Games" component={Games} />
+            <Route exact path="/Projs" component={Projs} />
+          </Switch>
+        </div>
+
       </div>
     );
   }
